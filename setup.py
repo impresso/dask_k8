@@ -21,5 +21,5 @@ setup(name='dask-k8',
       ],
       install_requires=[
           'requests>=2.20',
-          'kubernetes>=9.0',
+          'kubernetes>=9.0,<10',
       ])
