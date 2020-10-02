@@ -113,3 +113,14 @@ cluster = DaskCluster(namespace="dhlab", cluster_id="seguin-0", worker_pod_spec=
 with `kubectl get svc` when `DaskCluster` is running (after calling `.create()`). 
 - Two Kubernetes deployments are created, one for the scheduler and one for the workers. They can be seen with `kubectl get deployments`.
 - The corresponding pods are automatically managed by Kubernetes and their states can be seen with `kubectl get pods`.
+
+## Project
+
+The 'impresso - Media Monitoring of the Past' project is funded by the Swiss National Science Foundation (SNSF) under grant number [CRSII5_173719](http://p3.snf.ch/project-173719) (Sinergia program). The project aims at developing tools to process and explore large-scale collections of historical newspapers, and at studying the impact of this new tooling on historical research practices. More information at https://impresso-project.ch.
+
+## License
+
+Copyright (C) 2020  The *impresso* team. Contributors to this program include: [Benoit Seguin](https://github.com/SeguinBe).
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. 
+This program is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose. See the [GNU Affero General Public License](https://github.com/impresso/dask_k8/blob/master/LICENSE) for more details.
